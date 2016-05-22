@@ -133,6 +133,7 @@ public class PackageActivity extends FragmentActivity {
         int packageId = 0;
         JSONObject customerAddress = null;
         JSONObject supplierAddress = null;
+
         try {
             volumeHeight = packageDetails.getString("vol_height");
             volumeWidth = packageDetails.getString("vol_width");
